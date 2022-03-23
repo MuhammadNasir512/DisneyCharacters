@@ -11,7 +11,9 @@ import SwiftUI
 struct DisneyCharactersApp: App {
     var body: some Scene {
         WindowGroup {
-            CharactersListView()
+            let apiHandler = APIHandler()
+            let viewModel = CharactersListView.ViewModel(apiHandler: apiHandler)
+            CharactersListView(viewModel: viewModel)
         }
     }
 }

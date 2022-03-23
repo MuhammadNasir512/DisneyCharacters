@@ -12,6 +12,14 @@
 		02238FBA27EB681D0025903B /* DisneyCharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02238FB927EB681D0025903B /* DisneyCharactersTests.swift */; };
 		02238FD427EB68DF0025903B /* DisneyCharactersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02238FD327EB68DF0025903B /* DisneyCharactersApp.swift */; };
 		02238FD727EB69570025903B /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02238FD627EB69570025903B /* CharactersListView.swift */; };
+		027AEA5527EB6E7400A023C8 /* MockedJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 027AEA5427EB6E7300A023C8 /* MockedJson.json */; };
+		027AEA5827EB6ECD00A023C8 /* CharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027AEA5727EB6ECD00A023C8 /* CharactersModel.swift */; };
+		027AEA5B27EB6FEF00A023C8 /* CharactersListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027AEA5A27EB6FEF00A023C8 /* CharactersListTests.swift */; };
+		027AEA5E27EB74B200A023C8 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027AEA5D27EB74B200A023C8 /* APIHandler.swift */; };
+		027AEA6027EB775700A023C8 /* CharactersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027AEA5F27EB775700A023C8 /* CharactersListViewModel.swift */; };
+		027AEA6227EB820000A023C8 /* CharacterItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027AEA6127EB820000A023C8 /* CharacterItemView.swift */; };
+		027AEA6427EB94FC00A023C8 /* CharacterItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027AEA6327EB94FC00A023C8 /* CharacterItemViewModel.swift */; };
+		027AEA6727EB9C8300A023C8 /* CharacterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027AEA6627EB9C8300A023C8 /* CharacterDetailsView.swift */; };
 		60D4AA022EC16A06507C6E3D /* Pods_DisneyCharacters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFB598C0183E7C9B515BE49 /* Pods_DisneyCharacters.framework */; };
 		A48F609ECEB19F99FB337FAC /* Pods_DisneyCharactersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0572599B6B5FB1219723CCCE /* Pods_DisneyCharactersTests.framework */; };
 /* End PBXBuildFile section */
@@ -34,6 +42,14 @@
 		02238FB927EB681D0025903B /* DisneyCharactersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyCharactersTests.swift; sourceTree = "<group>"; };
 		02238FD327EB68DF0025903B /* DisneyCharactersApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisneyCharactersApp.swift; sourceTree = "<group>"; };
 		02238FD627EB69570025903B /* CharactersListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersListView.swift; sourceTree = "<group>"; };
+		027AEA5427EB6E7300A023C8 /* MockedJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockedJson.json; sourceTree = "<group>"; };
+		027AEA5727EB6ECD00A023C8 /* CharactersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersModel.swift; sourceTree = "<group>"; };
+		027AEA5A27EB6FEF00A023C8 /* CharactersListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListTests.swift; sourceTree = "<group>"; };
+		027AEA5D27EB74B200A023C8 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		027AEA5F27EB775700A023C8 /* CharactersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewModel.swift; sourceTree = "<group>"; };
+		027AEA6127EB820000A023C8 /* CharacterItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterItemView.swift; sourceTree = "<group>"; };
+		027AEA6327EB94FC00A023C8 /* CharacterItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterItemViewModel.swift; sourceTree = "<group>"; };
+		027AEA6627EB9C8300A023C8 /* CharacterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsView.swift; sourceTree = "<group>"; };
 		0572599B6B5FB1219723CCCE /* Pods_DisneyCharactersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisneyCharactersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFB598C0183E7C9B515BE49 /* Pods_DisneyCharacters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisneyCharacters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD177F119F5CDA85DD296E6 /* Pods-DisneyCharactersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyCharactersTests.release.xcconfig"; path = "Target Support Files/Pods-DisneyCharactersTests/Pods-DisneyCharactersTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,8 +101,11 @@
 		02238FA727EB681B0025903B /* DisneyCharacters */ = {
 			isa = PBXGroup;
 			children = (
+				027AEA5627EB6EAC00A023C8 /* Models */,
 				02238FD227EB68DF0025903B /* App */,
 				02238FD527EB69570025903B /* CharactersList */,
+				027AEA6527EB9C7100A023C8 /* CharacterDetails */,
+				027AEA5C27EB749400A023C8 /* APIHandler */,
 				02238FAC27EB681D0025903B /* Assets.xcassets */,
 				02238FAE27EB681D0025903B /* Preview Content */,
 			);
@@ -104,6 +123,8 @@
 		02238FB827EB681D0025903B /* DisneyCharactersTests */ = {
 			isa = PBXGroup;
 			children = (
+				027AEA5427EB6E7300A023C8 /* MockedJson.json */,
+				027AEA5927EB6FD800A023C8 /* CharactersList */,
 				02238FB927EB681D0025903B /* DisneyCharactersTests.swift */,
 			);
 			path = DisneyCharactersTests;
@@ -121,8 +142,43 @@
 			isa = PBXGroup;
 			children = (
 				02238FD627EB69570025903B /* CharactersListView.swift */,
+				027AEA5F27EB775700A023C8 /* CharactersListViewModel.swift */,
+				027AEA6127EB820000A023C8 /* CharacterItemView.swift */,
+				027AEA6327EB94FC00A023C8 /* CharacterItemViewModel.swift */,
 			);
 			path = CharactersList;
+			sourceTree = "<group>";
+		};
+		027AEA5627EB6EAC00A023C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				027AEA5727EB6ECD00A023C8 /* CharactersModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		027AEA5927EB6FD800A023C8 /* CharactersList */ = {
+			isa = PBXGroup;
+			children = (
+				027AEA5A27EB6FEF00A023C8 /* CharactersListTests.swift */,
+			);
+			path = CharactersList;
+			sourceTree = "<group>";
+		};
+		027AEA5C27EB749400A023C8 /* APIHandler */ = {
+			isa = PBXGroup;
+			children = (
+				027AEA5D27EB74B200A023C8 /* APIHandler.swift */,
+			);
+			path = APIHandler;
+			sourceTree = "<group>";
+		};
+		027AEA6527EB9C7100A023C8 /* CharacterDetails */ = {
+			isa = PBXGroup;
+			children = (
+				027AEA6627EB9C8300A023C8 /* CharacterDetailsView.swift */,
+			);
+			path = CharacterDetails;
 			sourceTree = "<group>";
 		};
 		82B5F1FD48C12A6B2208854E /* Pods */ = {
@@ -133,7 +189,6 @@
 				ED268ABA857D534BD67746F7 /* Pods-DisneyCharactersTests.debug.xcconfig */,
 				2AD177F119F5CDA85DD296E6 /* Pods-DisneyCharactersTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -239,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027AEA5527EB6E7400A023C8 /* MockedJson.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,8 +369,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027AEA5827EB6ECD00A023C8 /* CharactersModel.swift in Sources */,
+				027AEA6227EB820000A023C8 /* CharacterItemView.swift in Sources */,
 				02238FD727EB69570025903B /* CharactersListView.swift in Sources */,
+				027AEA6727EB9C8300A023C8 /* CharacterDetailsView.swift in Sources */,
+				027AEA6427EB94FC00A023C8 /* CharacterItemViewModel.swift in Sources */,
 				02238FD427EB68DF0025903B /* DisneyCharactersApp.swift in Sources */,
+				027AEA5E27EB74B200A023C8 /* APIHandler.swift in Sources */,
+				027AEA6027EB775700A023C8 /* CharactersListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02238FBA27EB681D0025903B /* DisneyCharactersTests.swift in Sources */,
+				027AEA5B27EB6FEF00A023C8 /* CharactersListTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
