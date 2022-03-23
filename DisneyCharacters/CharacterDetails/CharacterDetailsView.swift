@@ -11,7 +11,9 @@ struct CharacterDetailsView: View {
                     .frame(maxWidth: .infinity, maxHeight: 200, alignment: .center)
                     .background(Color.black)
                     .clipped()
-                Text("\(viewModel.nameTitle)\n\(viewModel.name)").padding()
+                if let name = viewModel.name {
+                    Text("\(viewModel.nameTitle)\n\(name)").padding()
+                }
                 if let text = filmsText() {
                     Text(text).padding()
                 }
@@ -27,22 +29,22 @@ struct CharacterDetailsView: View {
             .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
         }
         .listStyle(.plain)
-        .navigationTitle(viewModel.name)
+        .navigationTitle(viewModel.name ?? "")
     }
     
     private func filmsText() -> String? {
-        guard !viewModel.films.isEmpty else { return nil }
-        return "\(viewModel.filmsTitle)\n" + viewModel.films.joined(separator: ", ")
+        guard let films = viewModel.films, !films.isEmpty else { return nil }
+        return "\(viewModel.filmsTitle)\n" + films.joined(separator: ", ")
     }
     
     private func tvShowsText() -> String? {
-        guard !viewModel.tvShows.isEmpty else { return nil }
-        return "\(viewModel.tvShowsTitle)\n" + viewModel.tvShows.joined(separator: ", ")
+        guard let tvShows = viewModel.tvShows, !tvShows.isEmpty else { return nil }
+        return "\(viewModel.tvShowsTitle)\n" + tvShows.joined(separator: ", ")
     }
     
     private func videoGamesText() -> String? {
-        guard !viewModel.videoGames.isEmpty else { return nil }
-        return "\(viewModel.videoGamesTitle)\n" + viewModel.videoGames.joined(separator: ", ")
+        guard let videoGames = viewModel.videoGames, !videoGames.isEmpty else { return nil }
+        return "\(viewModel.videoGamesTitle)\n" + videoGames.joined(separator: ", ")
     }
 }
 

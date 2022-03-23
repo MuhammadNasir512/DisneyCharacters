@@ -9,6 +9,8 @@ extension CharactersListView {
         @Published var needsShowingErrorAlert = false
         @Published private(set) var error: Error? = nil
         let screenTitle = "Disney Characters" // Move to Localizable.strings
+        private var nextPageUrlString = ""
+        private var totalPages = 0
         
         private var apiHandler: APIHandlerType
         init(apiHandler: APIHandlerType) {
@@ -17,8 +19,16 @@ extension CharactersListView {
         
         func loadCharactersList() {
             charactersCellModels.removeAll()
+            continueLoading()
+        }
+        
+        func loadNextPage() {
+            apiHandler.urlString = nextPageUrlString
+            continueLoading()
+        }
+        
+        private func continueLoading() {
             isLoading = true
-            
             firstly {
                 apiHandler.getData()
             }.ensure { [weak self] in
@@ -33,10 +43,11 @@ extension CharactersListView {
         private func handleSuccess(data: Data) {
             do {
                 let decoder = JSONDecoder()
-                decoder.keyDecodingStrategy = .convertFromSnakeCase
                 let rootObject = try decoder.decode(RootObject.self, from: data)
                 let characters = rootObject.data
-                charactersCellModels = characters.map { CharacterItemView.ViewModel(charactersModel: $0, apiHandler: apiHandler) }
+                charactersCellModels += characters.map { CharacterItemView.ViewModel(charactersModel: $0, apiHandler: apiHandler) }
+                nextPageUrlString = rootObject.nextPage
+                totalPages = rootObject.totalPages
             } catch let error as NSError {
                 handleError(error: error)
             }

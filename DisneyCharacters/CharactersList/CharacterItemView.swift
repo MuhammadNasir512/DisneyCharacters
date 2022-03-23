@@ -12,7 +12,7 @@ struct CharacterItemView: View {
                 .background(Color.black)
                 .clipped()
                 .overlay(ProgressView().background(.clear).opacity(viewModel.isLoading ? 1 : 0))
-            Text(viewModel.name).dynamicTypeSize(.small)
+            Text(viewModel.name ?? "").dynamicTypeSize(.small)
             Spacer()
         }
     }

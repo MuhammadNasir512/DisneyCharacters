@@ -2,12 +2,19 @@ import SwiftUI
 
 struct CharactersListView: View {
     @StateObject var viewModel: ViewModel
-
+    
     var body: some View {
         NavigationView {
-            List(viewModel.charactersCellModels) { character in
-                NavigationLink(destination: CharacterDetailsView(viewModel: character)) {
-                    CharacterItemView(viewModel: character)
+            List {
+                ForEach(viewModel.charactersCellModels) { character in
+                    NavigationLink(destination: CharacterDetailsView(viewModel: character)) {
+                        CharacterItemView(viewModel: character)
+                    }
+                    .onAppear {
+                        if character == viewModel.charactersCellModels.last {
+                            viewModel.loadNextPage()
+                        }
+                    }
                 }
             }
             .listStyle(.plain)

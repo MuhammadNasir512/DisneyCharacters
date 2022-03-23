@@ -31,14 +31,12 @@ final class APIHandler: APIHandlerType {
                 return
             }
             let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
-                DispatchQueue.main.async {
-                    guard let error = error else {
-                        let dataToSend = data ?? Data()
-                        seal.fulfill(dataToSend)
-                        return
-                    }
-                    seal.reject(error)
+                guard let error = error else {
+                    let dataToSend = data ?? Data()
+                    seal.fulfill(dataToSend)
+                    return
                 }
+                seal.reject(error)
             }
             task.resume()
         }

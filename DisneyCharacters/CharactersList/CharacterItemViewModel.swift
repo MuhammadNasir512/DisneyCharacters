@@ -9,10 +9,10 @@ extension CharacterItemView {
         private let apiHandler: APIHandlerType
 
         let id: Int
-        let name: String
-        let films: [String]
-        let tvShows: [String]
-        let videoGames: [String]
+        let name: String?
+        let films: [String]?
+        let tvShows: [String]?
+        let videoGames: [String]?
         let imageUrlString: String
         var cache: NSCache<NSString, UIImage>
         
@@ -33,7 +33,7 @@ extension CharacterItemView {
             films = charactersModel.films
             tvShows = charactersModel.tvShows
             videoGames = charactersModel.videoGames
-            imageUrlString = charactersModel.imageUrl
+            imageUrlString = charactersModel.imageUrl ?? ""
             cache.countLimit = 500
             
             if let image = cache.object(forKey: NSString(string: imageUrlString)) {
@@ -53,5 +53,15 @@ extension CharacterItemView {
                 self.cache.setObject(image, forKey: NSString(string: self.imageUrlString))
             }.catch { _ in }
         }
+    }
+}
+
+extension CharacterItemView.ViewModel: Equatable {
+    static func == (lhs: CharacterItemView.ViewModel, rhs: CharacterItemView.ViewModel) -> Bool {
+        lhs.id == rhs.id
+        && lhs.name == rhs.name
+        && lhs.films == rhs.films
+        && lhs.tvShows == rhs.tvShows
+        && lhs.videoGames == rhs.videoGames
     }
 }
