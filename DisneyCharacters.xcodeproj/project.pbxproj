@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02238FA927EB681B0025903B /* DisneyCharactersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02238FA827EB681B0025903B /* DisneyCharactersApp.swift */; };
-		02238FAB27EB681B0025903B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02238FAA27EB681B0025903B /* ContentView.swift */; };
 		02238FAD27EB681D0025903B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02238FAC27EB681D0025903B /* Assets.xcassets */; };
 		02238FB027EB681D0025903B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02238FAF27EB681D0025903B /* Preview Assets.xcassets */; };
 		02238FBA27EB681D0025903B /* DisneyCharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02238FB927EB681D0025903B /* DisneyCharactersTests.swift */; };
-		02238FC427EB681D0025903B /* DisneyCharactersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02238FC327EB681D0025903B /* DisneyCharactersUITests.swift */; };
-		02238FC627EB681D0025903B /* DisneyCharactersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02238FC527EB681D0025903B /* DisneyCharactersUITestsLaunchTests.swift */; };
+		02238FD427EB68DF0025903B /* DisneyCharactersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02238FD327EB68DF0025903B /* DisneyCharactersApp.swift */; };
+		02238FD727EB69570025903B /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02238FD627EB69570025903B /* CharactersListView.swift */; };
+		60D4AA022EC16A06507C6E3D /* Pods_DisneyCharacters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFB598C0183E7C9B515BE49 /* Pods_DisneyCharacters.framework */; };
+		A48F609ECEB19F99FB337FAC /* Pods_DisneyCharactersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0572599B6B5FB1219723CCCE /* Pods_DisneyCharactersTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,26 +24,22 @@
 			remoteGlobalIDString = 02238FA427EB681B0025903B;
 			remoteInfo = DisneyCharacters;
 		};
-		02238FC027EB681D0025903B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 02238F9D27EB681B0025903B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 02238FA427EB681B0025903B;
-			remoteInfo = DisneyCharacters;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02238FA527EB681B0025903B /* DisneyCharacters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyCharacters.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		02238FA827EB681B0025903B /* DisneyCharactersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyCharactersApp.swift; sourceTree = "<group>"; };
-		02238FAA27EB681B0025903B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02238FAC27EB681D0025903B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02238FAF27EB681D0025903B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02238FB527EB681D0025903B /* DisneyCharactersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyCharactersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02238FB927EB681D0025903B /* DisneyCharactersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyCharactersTests.swift; sourceTree = "<group>"; };
-		02238FBF27EB681D0025903B /* DisneyCharactersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneyCharactersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02238FC327EB681D0025903B /* DisneyCharactersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyCharactersUITests.swift; sourceTree = "<group>"; };
-		02238FC527EB681D0025903B /* DisneyCharactersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyCharactersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02238FD327EB68DF0025903B /* DisneyCharactersApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisneyCharactersApp.swift; sourceTree = "<group>"; };
+		02238FD627EB69570025903B /* CharactersListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersListView.swift; sourceTree = "<group>"; };
+		0572599B6B5FB1219723CCCE /* Pods_DisneyCharactersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisneyCharactersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DFB598C0183E7C9B515BE49 /* Pods_DisneyCharacters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisneyCharacters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD177F119F5CDA85DD296E6 /* Pods-DisneyCharactersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyCharactersTests.release.xcconfig"; path = "Target Support Files/Pods-DisneyCharactersTests/Pods-DisneyCharactersTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADA58214865FEBE1F4AF50CC /* Pods-DisneyCharacters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyCharacters.debug.xcconfig"; path = "Target Support Files/Pods-DisneyCharacters/Pods-DisneyCharacters.debug.xcconfig"; sourceTree = "<group>"; };
+		EB17F91710E61BDC90A2F822 /* Pods-DisneyCharacters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyCharacters.release.xcconfig"; path = "Target Support Files/Pods-DisneyCharacters/Pods-DisneyCharacters.release.xcconfig"; sourceTree = "<group>"; };
+		ED268ABA857D534BD67746F7 /* Pods-DisneyCharactersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyCharactersTests.debug.xcconfig"; path = "Target Support Files/Pods-DisneyCharactersTests/Pods-DisneyCharactersTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D4AA022EC16A06507C6E3D /* Pods_DisneyCharacters.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02238FBC27EB681D0025903B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A48F609ECEB19F99FB337FAC /* Pods_DisneyCharactersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +67,9 @@
 			children = (
 				02238FA727EB681B0025903B /* DisneyCharacters */,
 				02238FB827EB681D0025903B /* DisneyCharactersTests */,
-				02238FC227EB681D0025903B /* DisneyCharactersUITests */,
 				02238FA627EB681B0025903B /* Products */,
+				82B5F1FD48C12A6B2208854E /* Pods */,
+				B4B0EEE693405184787E37AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,7 +78,6 @@
 			children = (
 				02238FA527EB681B0025903B /* DisneyCharacters.app */,
 				02238FB527EB681D0025903B /* DisneyCharactersTests.xctest */,
-				02238FBF27EB681D0025903B /* DisneyCharactersUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +85,8 @@
 		02238FA727EB681B0025903B /* DisneyCharacters */ = {
 			isa = PBXGroup;
 			children = (
-				02238FA827EB681B0025903B /* DisneyCharactersApp.swift */,
-				02238FAA27EB681B0025903B /* ContentView.swift */,
+				02238FD227EB68DF0025903B /* App */,
+				02238FD527EB69570025903B /* CharactersList */,
 				02238FAC27EB681D0025903B /* Assets.xcassets */,
 				02238FAE27EB681D0025903B /* Preview Content */,
 			);
@@ -118,13 +109,41 @@
 			path = DisneyCharactersTests;
 			sourceTree = "<group>";
 		};
-		02238FC227EB681D0025903B /* DisneyCharactersUITests */ = {
+		02238FD227EB68DF0025903B /* App */ = {
 			isa = PBXGroup;
 			children = (
-				02238FC327EB681D0025903B /* DisneyCharactersUITests.swift */,
-				02238FC527EB681D0025903B /* DisneyCharactersUITestsLaunchTests.swift */,
+				02238FD327EB68DF0025903B /* DisneyCharactersApp.swift */,
 			);
-			path = DisneyCharactersUITests;
+			path = App;
+			sourceTree = "<group>";
+		};
+		02238FD527EB69570025903B /* CharactersList */ = {
+			isa = PBXGroup;
+			children = (
+				02238FD627EB69570025903B /* CharactersListView.swift */,
+			);
+			path = CharactersList;
+			sourceTree = "<group>";
+		};
+		82B5F1FD48C12A6B2208854E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADA58214865FEBE1F4AF50CC /* Pods-DisneyCharacters.debug.xcconfig */,
+				EB17F91710E61BDC90A2F822 /* Pods-DisneyCharacters.release.xcconfig */,
+				ED268ABA857D534BD67746F7 /* Pods-DisneyCharactersTests.debug.xcconfig */,
+				2AD177F119F5CDA85DD296E6 /* Pods-DisneyCharactersTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4B0EEE693405184787E37AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DFB598C0183E7C9B515BE49 /* Pods_DisneyCharacters.framework */,
+				0572599B6B5FB1219723CCCE /* Pods_DisneyCharactersTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02238FC927EB681D0025903B /* Build configuration list for PBXNativeTarget "DisneyCharacters" */;
 			buildPhases = (
+				5EDBA069E6BB4EE714C180CF /* [CP] Check Pods Manifest.lock */,
 				02238FA127EB681B0025903B /* Sources */,
 				02238FA227EB681B0025903B /* Frameworks */,
 				02238FA327EB681B0025903B /* Resources */,
+				BAE58202A3DEFA68204927A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02238FCC27EB681D0025903B /* Build configuration list for PBXNativeTarget "DisneyCharactersTests" */;
 			buildPhases = (
+				B75BA47A715B8B64CAF741A4 /* [CP] Check Pods Manifest.lock */,
 				02238FB127EB681D0025903B /* Sources */,
 				02238FB227EB681D0025903B /* Frameworks */,
 				02238FB327EB681D0025903B /* Resources */,
@@ -164,24 +186,6 @@
 			productName = DisneyCharactersTests;
 			productReference = 02238FB527EB681D0025903B /* DisneyCharactersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		02238FBE27EB681D0025903B /* DisneyCharactersUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 02238FCF27EB681D0025903B /* Build configuration list for PBXNativeTarget "DisneyCharactersUITests" */;
-			buildPhases = (
-				02238FBB27EB681D0025903B /* Sources */,
-				02238FBC27EB681D0025903B /* Frameworks */,
-				02238FBD27EB681D0025903B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				02238FC127EB681D0025903B /* PBXTargetDependency */,
-			);
-			name = DisneyCharactersUITests;
-			productName = DisneyCharactersUITests;
-			productReference = 02238FBF27EB681D0025903B /* DisneyCharactersUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -197,10 +201,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					02238FB427EB681D0025903B = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 02238FA427EB681B0025903B;
-					};
-					02238FBE27EB681D0025903B = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 02238FA427EB681B0025903B;
 					};
@@ -221,7 +221,6 @@
 			targets = (
 				02238FA427EB681B0025903B /* DisneyCharacters */,
 				02238FB427EB681D0025903B /* DisneyCharactersTests */,
-				02238FBE27EB681D0025903B /* DisneyCharactersUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,22 +242,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		02238FBD27EB681D0025903B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EDBA069E6BB4EE714C180CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisneyCharacters-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		B75BA47A715B8B64CAF741A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisneyCharactersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAE58202A3DEFA68204927A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisneyCharacters/Pods-DisneyCharacters-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisneyCharacters/Pods-DisneyCharacters-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisneyCharacters/Pods-DisneyCharacters-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02238FA127EB681B0025903B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02238FAB27EB681B0025903B /* ContentView.swift in Sources */,
-				02238FA927EB681B0025903B /* DisneyCharactersApp.swift in Sources */,
+				02238FD727EB69570025903B /* CharactersListView.swift in Sources */,
+				02238FD427EB68DF0025903B /* DisneyCharactersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +326,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		02238FBB27EB681D0025903B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02238FC627EB681D0025903B /* DisneyCharactersUITestsLaunchTests.swift in Sources */,
-				02238FC427EB681D0025903B /* DisneyCharactersUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +333,6 @@
 			isa = PBXTargetDependency;
 			target = 02238FA427EB681B0025903B /* DisneyCharacters */;
 			targetProxy = 02238FB627EB681D0025903B /* PBXContainerItemProxy */;
-		};
-		02238FC127EB681D0025903B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 02238FA427EB681B0025903B /* DisneyCharacters */;
-			targetProxy = 02238FC027EB681D0025903B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -413,6 +455,7 @@
 		};
 		02238FCA27EB681D0025903B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA58214865FEBE1F4AF50CC /* Pods-DisneyCharacters.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,6 +484,7 @@
 		};
 		02238FCB27EB681D0025903B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB17F91710E61BDC90A2F822 /* Pods-DisneyCharacters.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +513,7 @@
 		};
 		02238FCD27EB681D0025903B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED268ABA857D534BD67746F7 /* Pods-DisneyCharactersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +533,7 @@
 		};
 		02238FCE27EB681D0025903B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD177F119F5CDA85DD296E6 /* Pods-DisneyCharactersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,40 +548,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisneyCharacters.app/DisneyCharacters";
-			};
-			name = Release;
-		};
-		02238FD027EB681D0025903B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Home.DisneyCharactersUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DisneyCharacters;
-			};
-			name = Debug;
-		};
-		02238FD127EB681D0025903B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Home.DisneyCharactersUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DisneyCharacters;
 			};
 			name = Release;
 		};
@@ -565,15 +577,6 @@
 			buildConfigurations = (
 				02238FCD27EB681D0025903B /* Debug */,
 				02238FCE27EB681D0025903B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		02238FCF27EB681D0025903B /* Build configuration list for PBXNativeTarget "DisneyCharactersUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				02238FD027EB681D0025903B /* Debug */,
-				02238FD127EB681D0025903B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
